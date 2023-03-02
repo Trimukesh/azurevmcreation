@@ -1,5 +1,5 @@
 @description('Username for the Virtual Machine.')
-param adminUsername string
+param adminUsername string = 'trimuk'
 
 @description('Password for the Virtual Machine.')
 @minLength(12)
